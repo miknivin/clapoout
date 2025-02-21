@@ -52,6 +52,7 @@ const anita_config = {
         //     'Bricks 1x2': 'albums-bricks-1x2.html',
         //     'Bricks 2x3': 'albums-bricks-2x3.html'
         // },
+        'Home':'index.html',
         'About': 'page-about.html',
         'Services': 'page-services.html',
         'Testimonials': 'page-testimonials.html',
@@ -68,19 +69,11 @@ const anita_config = {
     socials: {
         'facebook' : {
             'url': '#',
-            'label': 'Fb.'
-        },
-        'twitter' : {
-            'url': '#',
-            'label': 'Tw.'
+            'label': '<i class="fa-brands fa-facebook-f"></i>'
         },
         'instagram' : {
             'url': '#',
-            'label': 'In.'
-        },
-        'youtube' : {
-            'url': '#',
-            'label': 'Yt.'
+            'label': '<i class="fa-brands fa-instagram"></i>'
         },
     },
 
@@ -104,7 +97,7 @@ const anita_config = {
     /* --- Localization --- */
     l10n: {
         // Footer Copyright string
-        copyright: 'Copyright &copy; 2022. All Rights Reserved.',
+        copyright: 'Copyright &copy; 2025. All Rights Reserved.',
 
         // The message that appears when visitors try to open context menu
         rcp_message: 'Context menu is not allowed on this website',
